@@ -1,0 +1,11 @@
+/Users/machina/RiderProjects/DesignPatterns/Singleton/bin/Debug/netcoreapp3.0/Singleton
+/Users/machina/RiderProjects/DesignPatterns/Singleton/bin/Debug/netcoreapp3.0/Singleton.deps.json
+/Users/machina/RiderProjects/DesignPatterns/Singleton/bin/Debug/netcoreapp3.0/Singleton.runtimeconfig.json
+/Users/machina/RiderProjects/DesignPatterns/Singleton/bin/Debug/netcoreapp3.0/Singleton.runtimeconfig.dev.json
+/Users/machina/RiderProjects/DesignPatterns/Singleton/bin/Debug/netcoreapp3.0/Singleton.dll
+/Users/machina/RiderProjects/DesignPatterns/Singleton/bin/Debug/netcoreapp3.0/Singleton.pdb
+/Users/machina/RiderProjects/DesignPatterns/Singleton/obj/Debug/netcoreapp3.0/Singleton.csprojAssemblyReference.cache
+/Users/machina/RiderProjects/DesignPatterns/Singleton/obj/Debug/netcoreapp3.0/Singleton.AssemblyInfoInputs.cache
+/Users/machina/RiderProjects/DesignPatterns/Singleton/obj/Debug/netcoreapp3.0/Singleton.AssemblyInfo.cs
+/Users/machina/RiderProjects/DesignPatterns/Singleton/obj/Debug/netcoreapp3.0/Singleton.dll
+/Users/machina/RiderProjects/DesignPatterns/Singleton/obj/Debug/netcoreapp3.0/Singleton.pdb

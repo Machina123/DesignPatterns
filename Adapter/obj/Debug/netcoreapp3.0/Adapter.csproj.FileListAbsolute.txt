@@ -1,0 +1,11 @@
+/Users/machina/RiderProjects/DesignPatterns/Adapter/bin/Debug/netcoreapp3.0/Adapter
+/Users/machina/RiderProjects/DesignPatterns/Adapter/bin/Debug/netcoreapp3.0/Adapter.deps.json
+/Users/machina/RiderProjects/DesignPatterns/Adapter/bin/Debug/netcoreapp3.0/Adapter.runtimeconfig.json
+/Users/machina/RiderProjects/DesignPatterns/Adapter/bin/Debug/netcoreapp3.0/Adapter.runtimeconfig.dev.json
+/Users/machina/RiderProjects/DesignPatterns/Adapter/bin/Debug/netcoreapp3.0/Adapter.dll
+/Users/machina/RiderProjects/DesignPatterns/Adapter/bin/Debug/netcoreapp3.0/Adapter.pdb
+/Users/machina/RiderProjects/DesignPatterns/Adapter/obj/Debug/netcoreapp3.0/Adapter.csprojAssemblyReference.cache
+/Users/machina/RiderProjects/DesignPatterns/Adapter/obj/Debug/netcoreapp3.0/Adapter.AssemblyInfoInputs.cache
+/Users/machina/RiderProjects/DesignPatterns/Adapter/obj/Debug/netcoreapp3.0/Adapter.AssemblyInfo.cs
+/Users/machina/RiderProjects/DesignPatterns/Adapter/obj/Debug/netcoreapp3.0/Adapter.dll
+/Users/machina/RiderProjects/DesignPatterns/Adapter/obj/Debug/netcoreapp3.0/Adapter.pdb
