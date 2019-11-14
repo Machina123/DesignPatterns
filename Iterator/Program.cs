@@ -1,24 +1,36 @@
 ﻿using System;
-
-namespace Iterator
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int[] testData = {1, 4, 3, 0, 32, 55, 0, 0, 123, 456, 0, 77, 0};
-            IterableArray a = new IterableArray(testData);
-            Console.WriteLine("Iteracja po wszystkich elementach");
-            foreach (var elem in a.Elements)
-            {
-                Console.Write(elem + ", ");
-            }
-            Console.Write("\n");
-            Console.WriteLine("Iteracja po niezerowych elementach");
-            foreach (var elem in a.NonZeroElements)
-            {
-                Console.Write(elem + ", ");
-            }
-        }
-    }
-}
+ 
+ namespace Iterator
+ {
+     class Program
+     {
+         static void Main(string[] args)
+         {
+             int[] testData = {1, 2, 3, 4, 5, 6, 0, 7, 0, 0, 8, 9, 0};
+             Aggregate<int> iterableArray = new SimpleAggregate<int>(testData);
+             Iterator<int> iterator = iterableArray.GetIterator();
+             iterator.First();
+             while (!iterator.IsDone())
+             {
+                 Console.Write($"{iterator.CurrentItem()} ");
+                 iterator.Next();
+             }
+             Console.WriteLine(" ");
+             Aggregate<int> iterableNonZeroAggregate = new NonZeroAggregate<int>(testData);
+             Iterator<int> nzIter = iterableNonZeroAggregate.GetIterator();
+             nzIter.First();
+             while (!nzIter.IsDone())
+             {
+                 try
+                 {
+                     Console.Write($"{nzIter.CurrentItem()} ");
+                     nzIter.Next();
+                 }
+                 catch (InvalidOperationException)
+                 {
+                     // koniec kolekcji, ostatni element to 0
+                 }
+             }
+         }
+     }
+ }
