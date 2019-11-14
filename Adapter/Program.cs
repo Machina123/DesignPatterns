@@ -6,7 +6,18 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Figura[] figury =
+            {
+                new Kwadrat(),
+                new Linia(),
+                new Punkt(),
+                new Okrag()
+            };
+
+            foreach (var figura in figury)
+            {
+                figura.Wyswietl();
+            }
         }
     }
 }
