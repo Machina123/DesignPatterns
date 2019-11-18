@@ -9,15 +9,5 @@ namespace Adapter
         {
             Console.WriteLine("Rysuje kwadrat");
         }
-
-        public void Wypelnij()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Usun()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
