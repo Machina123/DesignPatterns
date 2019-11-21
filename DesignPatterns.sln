@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{7D4D57D6-53C3-43C6-A345-EED403573D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{2DD7E5D5-6F48-4B12-85CD-B094C9556F28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7D4D57D6-53C3-43C6-A345-EED403573D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D4D57D6-53C3-43C6-A345-EED403573D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D4D57D6-53C3-43C6-A345-EED403573D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD7E5D5-6F48-4B12-85CD-B094C9556F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD7E5D5-6F48-4B12-85CD-B094C9556F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD7E5D5-6F48-4B12-85CD-B094C9556F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD7E5D5-6F48-4B12-85CD-B094C9556F28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
