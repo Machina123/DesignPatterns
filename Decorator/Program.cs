@@ -6,7 +6,8 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Zamowienie zamowienie = new Zamowienie();
+            zamowienie.Drukuj();
         }
     }
 }
