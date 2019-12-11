@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{D3653587-8C8D-4611-8B65-44300805571F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{64378F9B-70B4-4D34-9075-520D1290BC65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{D3653587-8C8D-4611-8B65-44300805571F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3653587-8C8D-4611-8B65-44300805571F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3653587-8C8D-4611-8B65-44300805571F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64378F9B-70B4-4D34-9075-520D1290BC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64378F9B-70B4-4D34-9075-520D1290BC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64378F9B-70B4-4D34-9075-520D1290BC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64378F9B-70B4-4D34-9075-520D1290BC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
