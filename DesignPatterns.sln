@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{B3B8ECB3-452C-4E6B-B6FA-DC6BE3B1DBF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{D55E3CE1-9274-49F9-B1A9-D3179B3DF206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{B3B8ECB3-452C-4E6B-B6FA-DC6BE3B1DBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3B8ECB3-452C-4E6B-B6FA-DC6BE3B1DBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3B8ECB3-452C-4E6B-B6FA-DC6BE3B1DBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55E3CE1-9274-49F9-B1A9-D3179B3DF206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55E3CE1-9274-49F9-B1A9-D3179B3DF206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55E3CE1-9274-49F9-B1A9-D3179B3DF206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55E3CE1-9274-49F9-B1A9-D3179B3DF206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
